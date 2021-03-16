@@ -14,10 +14,10 @@ public class Bitacora_Ejercicios {
         do {
             System.out.println("---------------------------------");
             System.out.println("|              MENU             |");
-            System.out.println("| 1.- Euler                     |");
-            System.out.println("| 2.- Ecuacion Cuadratica       |");
+            System.out.println("| 1.- Euler.                     |");
+            System.out.println("| 2.- Ecuacion Cuadratica.      |");
             System.out.println("---------------------------------");
-            System.out.print("Seleccione Una Opcion: ");
+            System.out.print("Seleccione Una Opcion que usted desee: ");
             opc = xd.nextInt();
             System.out.println("\n************************************\n");
             switch (opc) {
@@ -31,8 +31,8 @@ public class Bitacora_Ejercicios {
                         Euler += (Math.pow(x, j) / Factorial(j));
                     }
                     System.out.println("");
-                    System.out.println("El resultado de euler elevado a " + x + " es: " + Euler);
-                    System.out.println("El resultado de euler elevado a -" + x + " es: " + (1 / Euler));
+                    System.out.println("El resultado de Euler elevado a " + x + " es: " + Euler);
+                    System.out.println("El resultado de Euler elevado a -" + x + " es: " + (1 / Euler));
                     break;
 
                 case 2:
